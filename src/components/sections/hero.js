@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { Link } from 'gatsby';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -36,8 +37,8 @@ const StyledHeroSection = styled.section`
   }
 
   p {
-    margin: 20px 0 0;
-    max-width: 540px;
+    margin: 20px 30px 0;
+    max-width: 560px;
   }
 
   .email-link {
@@ -59,33 +60,22 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
-  const four = (
-    <>
-      <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
-      </p>
-    </>
-  );
+  const one = <h1>Hello! My name is</h1>;
+  const two = <h2 className="big-heading">Berty Ruan.</h2>;
+  const three = <h3 className="medium-heading">I create things for the web.</h3>;
+  // const four = (
+  //   <>
+  //     <p>I'm a web [developer](https://github.com/bertyruan) and a yoga enthusiast.</p>
+  //   </>
+  // );
+
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
+    <Link className="email-link" to="/#contact">
+      Get in Touch!
+    </Link>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, five];
 
   return (
     <StyledHeroSection>

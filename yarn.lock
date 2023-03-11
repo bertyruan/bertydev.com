@@ -3414,6 +3414,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001196, can
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001282.tgz"
   integrity sha512-YhF/hG6nqBEllymSIjLtR2iWDDnChvhnVJqp+vloyt2tEHFG1yBR+ac2B/rOw0qOK0m0lEXU2dv4E/sMk5P9Kg==
 
+caniuse-lite@^1.0.30001464:
+  version "1.0.30001464"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz#888922718df48ce5e33dcfe1a2af7d42676c5eb7"
+  integrity sha512-oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==
+
 caw@^2.0.0, caw@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/caw/-/caw-2.0.1.tgz#6c3ca071fc194720883c2dc5da9b074bfc7e9e95"

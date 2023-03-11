@@ -178,7 +178,6 @@ const Jobs = () => {
               company
               location
               range
-              url
             }
             html
           }

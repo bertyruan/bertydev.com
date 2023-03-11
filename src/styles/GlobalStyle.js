@@ -176,7 +176,7 @@ const GlobalStyle = createGlobalStyle`
 
   .medium-heading {
     margin: 0;
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: clamp(30px, 8vw, 50px);
   }
 
   .numbered-heading {
@@ -435,6 +435,10 @@ const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
+  }
+
+  span.highlight {
+    color: var(--green);
   }
 
   .gatsby-image-outer-wrapper {

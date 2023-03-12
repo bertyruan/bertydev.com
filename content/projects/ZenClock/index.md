@@ -1,15 +1,14 @@
 ---
-date: '2020-09-01'
-title: 'Crwn Clothing'
-github: 'https://github.com/gupta-ji6/react-crwn-clothing'
-external: 'https://pepperst.herokuapp.com/'
+date: '2020-08-01'
+title: 'Zen Clocks'
+github: 'https://github.com/bertyruan/zen-clocks'
+external: 'https://640d8e29523c0348bcb62858--superlative-pie-aa99d4.netlify.app/'
 tech:
-  - React
-  - Redux
-  - Styled Components
-  - GraphQL
-  - Firebase
-showInProjects: 'false'
+  - Angular
+  - Angular Material
+  - RxJs
+  -
+showInProjects: 'true'
 ---
 
-WIP: A massive E-commerce web application build for learning and mastering React.
+A demonstration of using Reactive (RxJs) Programming to create a fully customizable suite of clocks. Clocks can be used to notifiy the meditator how much time has lapsed between sadhana.

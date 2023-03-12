@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
+import React from 'react';
 
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -85,17 +84,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a href="https://github.com/bertyruan">
-          <small>
-            Customized with{' '}
-            <span role="img" aria-label="Coffee">
-              ☕
-            </span>{' '}
-            and{' '}
-            <span role="img" aria-label="Heart">
-              ❤
-            </span>{' '}
-            by Berty Ruan
-          </small>
+          <small>Customized by Berty Ruan</small>
         </a>
       </StyledCredit>
       <StyledCredit tabIndex="-1">

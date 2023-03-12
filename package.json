@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "bertydev.com",
+  "description": "My Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Berty Ruan <berty.ruan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/bertyruan/bertydev.com"
   },
   "keywords": [
     "gatsby"
@@ -25,9 +25,6 @@
   "lint-staged": {
     "*.{js,css,json,md}": [
       "prettier --write"
-    ],
-    "*.js": [
-      "eslint --fix"
     ]
   },
   "dependencies": {

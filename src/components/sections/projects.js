@@ -261,7 +261,7 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection>
+    <StyledProjectsSection id="projects">
       <h2 ref={revealTitle}>Some Noteworthy Projects</h2>
 
       <ul className="projects-grid">
